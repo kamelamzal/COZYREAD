@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>ADMIN ADD PRODUCT</title>
+   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+   <!-- custom css file link  -->
+
+
+</head>
+<body>
+   <div class="icon">
+      <a href="../dashboard.php"><i class='bx bx-arrow-back'></i></a>
+      </div>
+
+
+<section>
+
+   <h1 class="product">ADMIN ADD PRODUCT</h1>    
+          
+   
+            <a href="./admin_shop/admin _page_shop/admin_page.php" class="option-btn" >Add Product to shop</a>
+            <a href="./admin_bestseller/admin_bestseller/admin_page.php" class="option-btn" >Add Product to Best Seller</a>
+            <a href="./admin_newin/admin_newin/admin_page.php" class="option-btn" >Add Product to New In</a>
+            <a href="./admin_promotion/admin_promotion/admin_page.php" class="option-btn" >Add Product to Promotion</a>
+           
+</section>
+
+</body>
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+:root{
+   --blanche:#ffff;
+   --noir:#222;
+   --primaire:#D9AAB7;
+   --gri:#b6b3b3;
+   --clr1:#f0f0f0;
+   --clr4:rgba(246, 200, 200, 0.2);
+   
+   --blue:#2980b9;
+   --red:tomato;
+   --orange:orange;
+   --black:#333;
+   --white:#fff;
+   --bg-color:#eee;
+   --dark-bg:rgba(0,0,0,.7);
+   --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+   --border:.1rem solid #999;
+}
+
+*{
+   font-family: 'Poppins', sans-serif;
+   margin:0; padding:0;
+   box-sizing: border-box;
+   outline: none; border:none;
+   text-decoration: none;
+   text-transform: capitalize;
+}
+
+html{
+   font-size: 62.5%;
+   overflow-x: hidden;
+}
+
+
+
+section{
+   padding:2rem;
+}
+
+.product{
+   text-align: center;
+   font-size: 4.5rem;
+   font-family:'Courier New', Courier, monospace;
+   text-transform: uppercase;
+   color:var(--gri);
+   margin-bottom: 2rem;
+}
+
+
+.option-btn
+{
+   display: block;
+   width: 30%;
+   text-align: center;
+   margin-left: 470px;
+   background-color: var(--primaire);
+   color:var(--white);
+   font-size: 2.3rem;
+   padding:1.2rem 3rem;
+   border-radius: .5rem;
+   cursor: pointer;
+   margin-top: 5rem;
+}
+
+.option-btn:hover
+{
+   background-color: var(--black);
+}
+.icon{
+    font-size:20px;
+ border-radius:50%;
+ background-color:#f0f0f0;
+    margin-left:20px;
+    width:35px;
+    height:35px;
+    margin-top:10px;
+    margin-bottom:10px;
+    border: 1px solid #f0f0f0;
+    color:#000;
+ }
+ .icon:hover{
+  
+ background-color:#D9AAB7;
+    
+    border: 1px solid #D9AAB7;
+    color:#fff;
+ }
+ .icon i{
+ padding-left: 7px;
+ padding-top:7px;
+ }
+ 
+ a{
+    text-decoration: none;
+     color: inherit;
+ }
+@media (max-width:915px){
+
+.product{
+   margin-left:  15px;
+}
+
+.option-btn{
+   font-size: 2rem;
+   margin-left:30px ;
+   width: 350px;
+}
+
+}
+</style>
+</html>
